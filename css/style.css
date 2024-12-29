@@ -1,0 +1,32 @@
+.content{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    width: 35%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; 
+}
+label {
+    margin-bottom: 5px;
+}
+input {
+    padding: 5px;
+    width: 150px;
+}
+button{
+    padding: 5px;
+    margin-top: 23px;
+    width: 175px;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px; 
+    color: purple;}
+
+   

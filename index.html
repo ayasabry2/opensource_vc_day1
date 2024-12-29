@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Counter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <label for="input1">TagName:</label>
+            <input type="text" id="input1" name="choose" placeholder="Enter your Tag name">
+        </div>
+        <div class="header">
+            <label for="input2">ClassName:</label>
+            <input type="text" id="input2" name="choose" placeholder="Enter your Class name">
+        </div>
+        <div class="header">
+            <label for="input3">Id:</label>
+            <input type="text" id="input3" name="choose" placeholder="Enter your Id">
+        </div>
+        <div class="header">
+            <label for="input4">Name:</label>
+            <input type="text" id="input4" name="choose" placeholder="Enter your Name">
+        </div>
+        <div id="result">
+            <button onclick="result()" type="button">Show Result</button>
+        </div>
+    </div>
+    <div class="output">
+        <label for="outputfield">Output:</label>
+        <input type="text" id="outputfield" readonly style="width: 400px; height: 30px;">
+    </div>
+    
+    <script src="./js/demo.js"></script>
+</body>
+</html>
